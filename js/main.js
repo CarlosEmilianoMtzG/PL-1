@@ -25,13 +25,4 @@ function obtenerNumeros() {
     if (sonIguales) {
         html += "<p>Los tres números son iguales</p>";
     }
-
-    document.getElementById("resultado").innerHTML = html;
-
-    console.log("Números ingresados:", num1, num2, num3);
-    console.log("Mayor a menor:", mayorAMenor);
-    console.log("Menor a mayor:", menorAMayor);
-    if (sonIguales) {
-        console.log("Los tres números son iguales");
-    }
 }
