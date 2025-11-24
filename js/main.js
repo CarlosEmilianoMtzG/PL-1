@@ -25,5 +25,4 @@ function obtenerNumeros() {
     if (sonIguales) {
         html += "<p>Los tres números son iguales</p>";
     }
-
 }
